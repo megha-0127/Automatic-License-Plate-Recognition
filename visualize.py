@@ -47,12 +47,12 @@ results = pd.read_csv('./test_interpolated.csv')
 # LOAD VIDEO
 # ============================================================
 
-video_path = 'sample.mp4'
+video_path = 'PORT.mp4'
 
 cap = cv2.VideoCapture(video_path)
 
 if not cap.isOpened():
-    print("ERROR: Could not open sample.mp4")
+    print("ERROR: Could not open PORT.mp4")
     exit()
 
 
